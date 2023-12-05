@@ -23,13 +23,12 @@ function App() {
     <div>
 
       <Routes>
-      <Route path="/" element={<About /> } />
-      <Route path="/lugares" element={<Menu />} />
-      <Route path="/Acerca" element={<Homee />} />
-      <Route path="/opiniones" element={<Review />} />
-      <Route path="/reserva" element= {<Book />} />
+        <Route path="/" element={<About /> } />
+        <Route path="/lugares" element={<Menu />} />
+        <Route path="/Acerca" element={<Homee />} />
+        <Route path="/opiniones" element={<Review />} />
+        <Route path="/reserva" element= {<Book />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Main />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
