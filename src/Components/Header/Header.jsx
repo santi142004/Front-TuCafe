@@ -14,10 +14,11 @@ function Header() {
       {/* <FontAwesomeIcon icon={faMugHot} /> ---- esrto va en ///  <a href="#" className="logo">Tu Café *aqui* </a>   */}
 
       <nav className="navbar">
-        <NavLink to="/#homee">Inicio</NavLink>
-        <a href="/#menu">Lugares</a>
-        <a href="/#about">Nosotros</a>
-        <a href="/#review">Reseñas</a>
+        <NavLink to="/home">Inicio</NavLink>
+        <NavLink to="/lugares">Lugares</NavLink>
+        <NavLink to="/acerca">Nosotros</NavLink>
+        <NavLink to="/opiniones">Reseñas</NavLink>
+        <NavLink to="/reserva">Reservas</NavLink> 
       </nav>
 
       <div className="search-bar">
