@@ -23,7 +23,7 @@ function App() {
     <div>
 
       <Routes>
-      <Route path="/home" element={<About /> } />
+      <Route path="/" element={<About /> } />
       <Route path="/lugares" element={<Menu />} />
       <Route path="/Acerca" element={<Homee />} />
       <Route path="/opiniones" element={<Review />} />
